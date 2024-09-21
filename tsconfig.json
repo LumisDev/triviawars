@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "rootDir": "src/",
+        "outDir": "dist/",
+        "esModuleInterop": true,
+        "strict": true,
+        "inlineSourceMap": true,
+        "sourceRoot": "src/",
+        "types": [
+            "@types/express",
+            "@types/ws",
+            "@types/node"
+        ],
+        "target":"ES2019",
+        "module": "CommonJS"
+    }
+}
