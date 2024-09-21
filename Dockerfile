@@ -8,7 +8,6 @@ WORKDIR /usr/src/myapp/
 COPY package.json package-lock.json ./
 
 # Install dependencies including TypeScript
-RUN npm install typescript -g
 RUN npm install
 
 # Copy the rest of the application code
