@@ -16,3 +16,4 @@ COPY . .
 # Run TypeScript compilation (assuming it's part of your build script)
 RUN npm run build
 
+CMD ["npm", "start"]
