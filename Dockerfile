@@ -16,4 +16,6 @@ COPY . .
 # Run TypeScript compilation (assuming it's part of your build script)
 RUN npm run build
 
+EXPOSE 8080
+
 CMD ["npm", "start"]
